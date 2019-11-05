@@ -39,15 +39,17 @@ body {
 
 .boxes {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	padding: 0;
 }
 
 .box {
 	background-color: #000;
 	color: #fff;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	flex-wrap: wrap;
+	list-style: none;
 }
 
 .lower--content {
